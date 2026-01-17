@@ -1,0 +1,22 @@
+Package: netlay
+Priority: optional
+Section: net
+Installed-Size: 1732
+Maintainer: Aurelian Pop <8299590+anubias@users.noreply.github.com>
+Architecture: amd64
+Version: 0.1.0-1
+Replaces: netlay
+Provides: netlay
+Depends: libc6 (>= 2.34), systemd (>= 215)
+Conflicts: netlay
+Breaks: netlay
+Filename: pool/main/n/netlay/netlay_0.1.0-1_amd64.deb
+Size: 583840
+MD5sum: 224190f72a7ec09f0194d2fcdd5bd66f
+SHA1: 0cc3ee8f84cc5341204344e1e71edee6a4cc1fbd
+SHA256: e1ca1a27eb3b411f01ac5737e835217d6e5866f71707a5f8b3e220a1490a1f6e
+SHA512: dc29f1f71340956f2696d136cc712eebd18f72c61c61d210ac156429187825f700dc5805a224d13c2e204e52565c5cb978ca7e1000599681199995b45a6e7f7d
+Description: Netlay is a command-line Linux utility for asynchronously relaying TCP and UDP
+ sockets between machines.
+Homepage: https://github.com/anubias/netlay
+
